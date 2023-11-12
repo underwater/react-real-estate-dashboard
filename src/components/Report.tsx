@@ -1,10 +1,13 @@
 import React from 'react'
-import { FaFileDownload } from 'react-icons/fa'
+import { FaFileDownload, FaHome } from 'react-icons/fa'
 
 function Report() {
   return (
     <div className='w-[350px] h-[355px] rounded-3xl bg-zinc-700 p-9 flex flex-col shadow-md'>
       <div className='flex justify-between items-center'>
+        <div>
+          <FaHome className='w-8 h-8 rounded-md text-yellow-200 bg-zinc-600 p-1'/>
+        </div>
         <div className='text-white bg-zinc-700 text-lg rounded-full px-7 py-2 border-gray-500 border-2 hover:cursor-pointer hover:bg-zinc-600 active:bg-zinc-500'>
           Full Report
         </div>

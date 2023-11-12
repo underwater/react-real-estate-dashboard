@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiBarChartFill } from 'react-icons/ri'
+import {FaHome} from 'react-icons/fa'
 
 import BarChart from './BarChart'
 
@@ -8,16 +9,16 @@ function NewProperties() {
     <div className='w-[350px] h-[355px] rounded-3xl bg-zinc-700 p-9 flex flex-col shadow-md gap-3'>
       <div className='flex'>
         <div className='w-8 h-8 rounded-md bg-zinc-600 mr-2 text-yellow-200 text-2xl p-1'>
-          <RiBarChartFill />
+          <FaHome />
         </div>
-        <p className='text-xl text-white'>New Properties</p>
+        <p className='text-xl text-white'>Very Properties</p>
       </div>
-      <p className='text-white text-4xl text-left'>283</p>
+      <p className='text-white text-4xl text-left'>101</p>
       <div className='flex flex-col-reverse h-full'>
         <BarChart />
       </div>
     </div>
-  )
+  )  
 }
 
 export default NewProperties
